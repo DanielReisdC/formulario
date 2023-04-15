@@ -91,6 +91,7 @@ margin-top: 10px;
     background-color: rgb(110, 45, 170);
 }
 select{
+    margin-top: 5px;
     color: white;
     border: none;
     background-color: #252A34;
