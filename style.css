@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'poppins',sans-serif ;
+    background-color: #1f2833;
+   color: white;
+    
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .contanier{
+        border-radius: 10px;
+        margin-top: 20px;
+     
+       border: 3px solid blueviolet;;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #181920;
+        width: 30%;
+        height: 170vh;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .titulo{
+     text-align: center;
+     margin-top: 10px;
+    }
+    .form{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+       
+      
+    }
+    .endereco{
+        margin-top: 20px;
+    }
+.input{
+   
+min-width: 250px;
+margin-top: 10px;
+    
+}
+.input input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #2a303b;
+    color: white;
+    
+
+}
+.buttons{
+  
+   justify-content: space-between;
+   width: 100%;
+   margin-top: 10px;
+   
+}
+.buttons button{
+    
+    background-color: blueviolet;
+    border: none;
+    width: 40%;
+    height: 30px;
+    color: white;
+    border-radius: 50px;
+    
+    margin:10px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(110, 45, 170);
+}
+select{
+    color: white;
+    border: none;
+    background-color: #252A34;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
